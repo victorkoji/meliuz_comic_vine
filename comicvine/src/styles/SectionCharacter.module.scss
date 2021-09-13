@@ -1,0 +1,19 @@
+.section-characters{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: 15px 0px;
+
+    .characters-filters{
+        display: flex;
+        justify-content: space-between;
+
+        border-bottom: 1px solid rgba(0,0,0, 0.3);
+
+    }
+}

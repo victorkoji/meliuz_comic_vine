@@ -1,0 +1,15 @@
+$color-active: #009C00;
+
+.characters-filters{
+    display: flex;
+    
+    span{
+        padding: 3px 0px;
+    }
+
+    button{
+        &.active{
+            color: $color-active;
+        }
+    }
+}
