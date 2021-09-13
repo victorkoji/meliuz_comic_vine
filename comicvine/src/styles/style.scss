@@ -1,0 +1,36 @@
+$color-active: #009C00;
+
+#view-page{
+
+    #descricao {
+        border-top: 1px solid rgba(255,255,255,0.3);
+
+        h2, h3, h4{
+            clear: both;
+        }
+    
+        figure {
+            &.medium, &[data-size=medium]{
+                max-width: 400px;
+            }
+            &[data-align="right"]{
+                float: right;
+            }
+            &[data-align="left"]{
+                float: left;
+            }
+            
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    #character-info{
+        border: 1px solid rgba(255,255,255,0.3);
+    
+        h4, p{
+            margin: 0px;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+    background-color: #FFF;
+
+    margin-bottom: 30px;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	
+    height: 80px;
+	padding: .5rem 1rem;
+	
+    color: #DFB019;
+    font-size: 1rem;
+
+	ul.navbar-nav{
+		flex-direction: row;
+		list-style: none;
+		display: flex;
+	}
+
+    a {
+		padding-right: .5rem;
+        padding-left: .5rem;
+
+		&.active{
+			font-weight: 700;
+		}
+    }
+}

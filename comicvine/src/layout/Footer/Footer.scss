@@ -1,0 +1,22 @@
+footer{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    bottom: 0px;
+    background-color: #FFF;
+
+    margin-top: 30px;
+
+    color: #DFB019;
+    font-weight: 700;
+
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+
+        background-color: RGB(0, 0, 0, 0.8);
+        padding: .5rem 1rem;
+    }
+}
